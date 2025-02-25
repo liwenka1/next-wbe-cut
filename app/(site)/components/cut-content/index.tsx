@@ -11,7 +11,7 @@ const CutContent = () => {
     <Card className="w-full">
       <div className="w-full">
         <Timeline
-          style={{ width: "100%" }}
+          style={{ width: "100%", height: "300px" }}
           onChange={setData}
           editorData={data}
           effects={mockEffect}
